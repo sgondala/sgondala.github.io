@@ -29,7 +29,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-url: sameerdharur.github.io
+url: sgondala.github.io
 baseurl: /
 
 # Exclude from processing.
