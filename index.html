@@ -150,10 +150,8 @@
               <!-- <br> -->
               <!-- <em>Machine Learning, Spring 2020. Georgia Tech</em> -->
               <p align="justify">Worked on the idea of test-time training to improve performance of image captioning
-                models on test-time out-of-distribution data as measured by CIDEr-D metric. Modelled a CIDEr-D predictor
-                using ViLBERT which can be used to train captioning model using policy gradient at test time, to produce better
-                captions for test images. Project was scrapped due to poor generalization to out-of-distribution
-                images.</em></p>
+                models on novel images. Incorporated several metrics that estimate the accuracy and fluency of captions 
+                without using paired data. Using these metrics as rewards, trained captioning models to optimize for them using PPO.</em></p>
               <br>
               <!-- <p align="justify">Both the ideas of CIDEr predictor models and test-time training of image captioning models are novel and aren't previously explored in the literature</em></p> -->
 
